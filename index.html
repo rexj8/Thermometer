@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <style>
+        body{
+            background-color: rgb(36, 28, 109);
+        }
+
+        h1{
+            color:#e0720a;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -22,6 +32,8 @@
                 let temp=document.getElementById('temp');
 
                 temp.innerHTML="&#xf2cb";
+                temp.style.color = "#ffffff";
+
 
                 setTimeout(()=>{
                     temp.innerHTML="&#xf2ca";
